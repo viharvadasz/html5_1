@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- css filék -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        
+    </head>
+    
+    <body>
+      
+        <!-- Fő navigáció -->
+        <nav>
+            <a href="pages/about.html">Rólunk</a>
+            <a href="#section1">1. szekció</a>
+            <a href="#section2">2. szekció</a>
+            <a onclick="bigSection()">Szekció növelése</a>
+            <a href="http://blog.isztan.eu/" rel="external" target="_blank""">Blogisztán</a>
+        </nav>
+        
+        <!-- 1. szekció -->
+        <section id="section1">
+            <!--Új bejegyzés, cikk. -->
+            <article>
+                <h1>ITfactory tanfolyam - Kiskunság, téli természetfotó</h1>
+                <p>HTML5 tanfolyam az ITFactory-től.<br> A fotó a Kiskunsági Nemzeti Parkban készült, 2012 telén.</p>
+                <img 
+                src="http://blog.isztan.eu/wp-content/gallery/peszeradacsi-retek-ho-tel/havazas-alfold-peszeradacsi-retek-12.jpg"      alt="Kiskunság téli természetftók" 
+                style="max-width: 100px; border: solid 5px #e0e0e0;" 
+                id="img1" 
+                class="test-images">
+            </article>
+            <div style="height:1000px;">
+            &nbsp;
+            </div>
+        </section>
+        
+        
+        
+        <section id="section2">
+            <aside style="float:left;">
+                <h3>Oldalra csoportosított elemek</h3>
+            </aside>
+            <aside style="float:left;">
+                <h3>Oldalra csoportosított elemek</h3>
+            </aside>
+        </section>
+        
+        <div style="height:1000px;">
+            &nbsp;
+        </div>
+        
+        <!--Oldal lábléce-->
+        <footer style="position: fixed; left: 0; right: 0; bottom: 0;">
+            &copy; Viharvadász <a href="https://github.com/viharvadasz">@github</a>
+        </footer>
+        
+        
+        
+        <!-- js fájlok -->
+        
+        <script src="js/main.js"></script>
+        
+    </body>
+    
+    
+</html>
